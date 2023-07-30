@@ -1,6 +1,11 @@
-Git commands: everything starts git "git"
+Git commands:
+everything starts with "git"
 
-- git init .: apply git to current folder
-- git add .: stage (save) current changes (Add all the files to the staging area)
-- git commit -m "commit message": commit current change with a description (save changes)
-- git status: check current status (new changes will be printed out to the terminals)
+- git init . : apply git to current folder
+- git add . : Add all the files to the staging area
+- git commit -m "commit message" : commit current change with a description (save changes)
+- git status : check current status (new changes? everything has been saved?)
+- git config: email and username
+- git log: show all the commits
+- git checkout <branch/commit hash>
+- git switch - / git checkout main: go back to the latest commit
